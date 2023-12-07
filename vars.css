@@ -1,0 +1,121 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --white-ffffff: #ffffff;
+  --white-fffaeb: #fffaeb;
+  --white-12-ffffff: rgba(255, 255, 255, 0.12);
+  --yellow-f-9-b-800: #f9b800;
+  --blue-0052-b-4: #0052b4;
+  --purple-9747-ff: #9747ff;
+  --red-d-80027: #d80027;
+  --dark-262626: #262626;
+  --dark-80-262626: linear-gradient(
+    to left,
+    rgba(38, 38, 38, 0.8),
+    rgba(38, 38, 38, 0.8)
+  );
+  --dark-12-262626: rgba(38, 38, 38, 0.12);
+  --grey-787878: #787878;
+  --light-0-fff-1-c-9: #fff1c9;
+  --light-1-feedbc: #feedbc;
+  --light-2-ffe-18-b: #ffe18b;
+  --light-3-d-3-b-970: #d3b970;
+  --light-4-ffbb-45: #ffbb45;
+  --bg-feedbc: #feedbc;
+  --bg-fffaeb: linear-gradient(
+      to left,
+      rgba(249, 184, 0, 0.08),
+      rgba(249, 184, 0, 0.08)
+    ),
+    linear-gradient(to left, #ffffff, #ffffff);
+  --shade-fff-6-da: #fff6da;
+
+  /* Fonts */
+  --website-button-font-family: SegoeUi-Bold, sans-serif;
+  --website-button-font-size: 24px;
+  --website-button-line-height: normal;
+  --website-button-font-weight: 700;
+  --website-button-font-style: normal;
+  --website-heading-1-font-family: SegoeUi-Bold, sans-serif;
+  --website-heading-1-font-size: 80px;
+  --website-heading-1-line-height: 90px;
+  --website-heading-1-font-weight: 700;
+  --website-heading-1-font-style: normal;
+  --website-heading-2-font-family: SegoeUi-Bold, sans-serif;
+  --website-heading-2-font-size: 72px;
+  --website-heading-2-line-height: normal;
+  --website-heading-2-font-weight: 700;
+  --website-heading-2-font-style: normal;
+  --website-heading-3-font-family: SegoeUi-Bold, sans-serif;
+  --website-heading-3-font-size: 60px;
+  --website-heading-3-line-height: 72px;
+  --website-heading-3-font-weight: 700;
+  --website-heading-3-font-style: normal;
+  --website-heading-4-font-family: SegoeUi-Bold, sans-serif;
+  --website-heading-4-font-size: 50px;
+  --website-heading-4-line-height: normal;
+  --website-heading-4-font-weight: 700;
+  --website-heading-4-font-style: normal;
+  --website-heading-5-font-family: SegoeUi-Regular, sans-serif;
+  --website-heading-5-font-size: 30px;
+  --website-heading-5-line-height: 40px;
+  --website-heading-5-font-weight: 400;
+  --website-heading-5-font-style: normal;
+  --website-heading-3-bold-font-family: SegoeUi-Bold, sans-serif;
+  --website-heading-3-bold-font-size: 30px;
+  --website-heading-3-bold-line-height: normal;
+  --website-heading-3-bold-font-weight: 700;
+  --website-heading-3-bold-font-style: normal;
+  --website-heading-5-s-bold-font-family: SegoeUi-Semibold, sans-serif;
+  --website-heading-5-s-bold-font-size: 30px;
+  --website-heading-5-s-bold-line-height: normal;
+  --website-heading-5-s-bold-font-weight: 600;
+  --website-heading-5-s-bold-font-style: normal;
+  --website-heading-5-capital-font-family: SegoeUi-Bold, sans-serif;
+  --website-heading-5-capital-font-size: 30px;
+  --website-heading-5-capital-line-height: normal;
+  --website-heading-5-capital-font-weight: 700;
+  --website-heading-5-capital-font-style: normal;
+  --website-heading-6-font-family: SegoeUi-Semibold, sans-serif;
+  --website-heading-6-font-size: 20px;
+  --website-heading-6-line-height: normal;
+  --website-heading-6-font-weight: 600;
+  --website-heading-6-font-style: normal;
+  --website-paragraph-1-font-family: SegoeUi-Regular, sans-serif;
+  --website-paragraph-1-font-size: 20px;
+  --website-paragraph-1-line-height: normal;
+  --website-paragraph-1-font-weight: 400;
+  --website-paragraph-1-font-style: normal;
+  --website-paragraph-1-underline-font-family: SegoeUi-Semibold, sans-serif;
+  --website-paragraph-1-underline-font-size: 20px;
+  --website-paragraph-1-underline-line-height: 34px;
+  --website-paragraph-1-underline-font-weight: 600;
+  --website-paragraph-1-underline-font-style: normal;
+  --website-paragraph-2-font-family: SegoeUi-Semilight, sans-serif;
+  --website-paragraph-2-font-size: 18px;
+  --website-paragraph-2-line-height: normal;
+  --website-paragraph-2-font-weight: 400;
+  --website-paragraph-2-font-style: normal;
+  --mobile-heading-1-font-family: SegoeUi-Bold, sans-serif;
+  --mobile-heading-1-font-size: 36px;
+  --mobile-heading-1-line-height: normal;
+  --mobile-heading-1-font-weight: 700;
+  --mobile-heading-1-font-style: normal;
+  --mobile-heading-2-font-family: SegoeUi-Semibold, sans-serif;
+  --mobile-heading-2-font-size: 24px;
+  --mobile-heading-2-line-height: normal;
+  --mobile-heading-2-font-weight: 600;
+  --mobile-heading-2-font-style: normal;
+  --mobile-heading-2-b-font-family: SegoeUi-Bold, sans-serif;
+  --mobile-heading-2-b-font-size: 24px;
+  --mobile-heading-2-b-line-height: normal;
+  --mobile-heading-2-b-font-weight: 700;
+  --mobile-heading-2-b-font-style: normal;
+  --mobile-heading-5-capital-font-family: SegoeUi-Bold, sans-serif;
+  --mobile-heading-5-capital-font-size: 16px;
+  --mobile-heading-5-capital-line-height: normal;
+  --mobile-heading-5-capital-font-weight: 700;
+  --mobile-heading-5-capital-font-style: normal;
+
+  /* Effects */
+}
